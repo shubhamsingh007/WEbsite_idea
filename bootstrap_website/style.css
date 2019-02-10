@@ -1,0 +1,93 @@
+
+    .navbar{
+      margin-bottom: 0;
+      border-radius: 0;
+      color: #ffffff;
+      padding: 0.3px 0;
+      font-size: 1.15em;
+      border-bottom: red 3px solid;
+      
+    }
+    
+    .navbar-brand{
+      float: left;
+      min-height: 50px;
+      padding: 5px 5px;
+      
+    }
+
+    .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus,
+    .navbar-inverse .navbar-nav .active a:hover{
+      color: #ffffff;
+      background-color: #222;
+      
+    }
+
+    .right{
+     border-bottom: none;
+     float: right;
+    }
+
+    #mycarousel{
+      height: 525px;
+    }
+
+    .carousel-inner{
+      height: 550px;
+    }
+
+    
+
+    .carousel-caption{
+      top: 35%;
+      transform: translateY(-20%);
+      text-transform: uppercase;
+    }
+
+    /*.carousel-inner > .item > img {
+    width:1380px;
+    height:550px
+       
+    }*/
+
+    .carousel-inner{
+      border-bottom: red 3px solid;
+      display: inherit; 
+    
+    }
+
+    .btn{
+      font-size: 28px;
+      color: #222;
+      padding: 8px 8px;
+      background-color: transparent;
+      border: #222 2.5px solid;
+         
+    }
+    /* not to show things on mobile version */
+    @media(max-width:600px){
+      .carousel-caption{
+        display: none;
+      }
+
+      #icon{
+        max-width: 150px;
+      }
+    }
+
+    .container{
+      margin: 4% auto;
+
+    }
+
+    #icon{
+        max-width: 200px;
+        margin: 1% auto;
+    }
+    
+    h2{
+      padding: 15px;
+      font-size: 35px;
+    }
+
+
